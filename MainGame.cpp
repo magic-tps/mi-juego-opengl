@@ -18,7 +18,6 @@ void MainGame::run()
     gameState = GameState::PLAY;
     init();
 
-    // AQUÍ reemplazas:
     /*
     sprites.push_back(new Sprite());
     sprites.back()->init(-1, -1, 1, 1, "Images/lock.png");
@@ -26,7 +25,6 @@ void MainGame::run()
     sprites.back()->init( 0, -1, 1, 1, "Images/lock.png");
     */
 
-    // POR ESTO:
     std::vector<glm::vec2> positions = {
         {-1.0f, -1.0f},
         { 0.0f, -1.0f},
